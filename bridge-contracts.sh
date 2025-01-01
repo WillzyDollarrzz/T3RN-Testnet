@@ -3,7 +3,7 @@
 echo "Setting up Project Directory..."
 npm init -y
 npm install --save-dev hardhat
-npx hardhat <<< "\n\n\n\n"
+npx hardhat 
 
 echo "Installing necessary dependencies..."
 sudo apt update && sudo apt upgrade -y

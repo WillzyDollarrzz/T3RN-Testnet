@@ -1,10 +1,10 @@
 # T3RN-Testnet
 <b>Duo-Guide For T3RN Testnet</b>
 - This guide works on VPS, Github Codespaces/ Gitpod / Linux based Terminal (Ubuntu, WSL)
-- Ensure you least 0.002 Sepolia Eth on Arb, Op, Blast and Arbitrum NetworK
+- Ensure you least `0.002` Sepolia Eth on Arb, Op, Blast and Arbitrum NetworK
 - You can bridge Using [T3RN](https://bridge.t1rn.io/) or [brid.gg](https://testnet.brid.gg/)
 
-  **Let's get Started :)**
+**Let's get Started :)**
 
   <h2>Smart-Contracts Deployment</h2>
   

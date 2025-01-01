@@ -6,7 +6,7 @@
 
   **Let's get Started :)**
 
-  <h2>Smart Contract Deployment</h2>
+  <h2>Smart-Contracts Deployment</h2>
   
 - We'll be using hardhat to deploy 
 

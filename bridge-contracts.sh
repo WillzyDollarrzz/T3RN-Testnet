@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Setting up Project Directory..."
-mkdir bridge-contracts && cd bridge-contracts
 npm init -y
 npm install --save-dev hardhat
 npx hardhat <<< "\n\n\n\n"

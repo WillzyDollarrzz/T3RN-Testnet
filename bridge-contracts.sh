@@ -46,7 +46,6 @@ read PRIVATE_KEY
 echo "PRIVATE_KEY=$PRIVATE_KEY" > .env
 
 echo "Coding The Smart Contract..."
-mkdir contracts
 cat > contracts/bridge.sol <<EOL
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -134,7 +133,7 @@ async function main() {
     const txHash = receiver.deploymentTransaction().hash;
 
     console.log("Bridge contract for base sepolia to op sepolia deployed -->", contractAddress);
-    console.log("Transaction Link:", `https://sepolia.basescan.org/tx/${txHash}`);
+    console.log("Transaction link: https://sepolia.basescan.org/tx/" + txHash);
 }
 
 main().catch((error) => {
@@ -160,7 +159,7 @@ async function main() {
     const txHash = receiver.deploymentTransaction().hash;
 
     console.log("Bridge contract for op sepolia to base sepolia deployed -->", contractAddress);
-    console.log("Transaction Link:", `https://sepolia-optimism.etherscan.io/tx/${txHash}`);
+    console.log("Transaction link: https://sepolia-optimism.etherscan.io/tx/" + txHash);
 }
 
 main().catch((error) => {
@@ -186,7 +185,7 @@ async function main() {
     const txHash = receiver.deploymentTransaction().hash;
 
     console.log("Bridge contract for blast sepolia to base/arb/op deployed -->", contractAddress);
-    console.log("Transaction Link:", `https://sepolia.blastscan.io/tx/${txHash}`);
+    console.log("Transaction link: https://sepolia.blastscan.io/tx/" + txHash);
 }
 
 main().catch((error) => {
@@ -212,7 +211,7 @@ async function main() {
     const txHash = receiver.deploymentTransaction().hash;
 
     console.log("Bridge contract for arb sepolia to base sepolia -->", contractAddress);
-    console.log("Transaction Link:", `https://sepolia.arbiscan.io/tx/${txHash}`);
+    console.log("Transaction link: https://sepolia.arbiscan.io/tx/" + txHash);
 }
 
 main().catch((error) => {

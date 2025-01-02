@@ -29,7 +29,7 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY]
     },
     blastSepolia: {
-      url: "https://sepolia.blast.io/",
+      url: "https://blast-sepolia.drpc.org",
       accounts: [process.env.PRIVATE_KEY]
     },
     arbSepolia: {

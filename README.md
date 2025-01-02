@@ -10,14 +10,13 @@
   
 - We'll be using hardhat to deploy 
 
-   - Copy and Paste in your terminal
+   - Copy and Paste ↓↓ in your terminal
 
 ```bash
 mkdir bridge-contracts && cd bridge-contracts && wget -q https://raw.githubusercontent.com/WillzyDollarrzz/T3RN-Testnet/refs/heads/main/bridge-contracts.sh && chmod +x bridge-contracts.sh && ./bridge-contracts.sh
 ```
 
-When you're prompted to `Create A Hardhat Project`, just click `enter` **4** times
-
+When you're prompted to `Create A Hardhat Project`, just click `enter` **4** times<br> <br>
 <b>NOTE:</b> Copy Everthing that was shown from `Deploying Contracts On Each Network...` down to the last word and Save.
 
 - What you Copied will be needed in Part .

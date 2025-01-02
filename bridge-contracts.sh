@@ -29,7 +29,7 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY]
     },
     blastSepolia: {
-      url: "https://blast-sepolia.drpc.org",
+      url: "https://endpoints.omniatech.io/v1/blast/sepolia/public",
       accounts: [process.env.PRIVATE_KEY]
     },
     arbSepolia: {

@@ -29,11 +29,11 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY]
     },
     blastSepolia: {
-      url: "https://blast-sepolia.blockpi.network/v1/rpc/public",
+      url: "https://sepolia.blast.io/",
       accounts: [process.env.PRIVATE_KEY]
     },
     arbSepolia: {
-      url: "https://sepolia-rollup.arbitrum.io/rpc",
+      url: "https://arbitrum-sepolia-rpc.publicnode.com",
       accounts: [process.env.PRIVATE_KEY]
     }
   }

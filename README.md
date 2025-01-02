@@ -15,7 +15,11 @@
 ```bash
 mkdir bridge-contracts && cd bridge-contracts && wget -q https://raw.githubusercontent.com/WillzyDollarrzz/T3RN-Testnet/refs/heads/main/bridge-contracts.sh && chmod +x bridge-contracts.sh && ./bridge-contracts.sh
 ```
-Now After You've Gotten it, Copy Everthing that was shown from `Deploying Contracts On Each Network...` down to the last word and save.
 
+When you're prompted to `Create A Hardhat Project`, just click `enter` **4** times
+
+<b>NOTE:</b> Copy Everthing that was shown from `Deploying Contracts On Each Network...` down to the last word and Save.
+
+- What you Copied will be needed in Part .
 - For Part 2, we'll be interacting with this [guide](https://github.com/adityapatil343/t3rn-bot) but will be making some changes.
-- Subscribe to my [Youtube Channel](https://www.youtube.com/@willzydollarrzz) and Watch the Video for the [Full Guide]() 
+- Subscribe to my [Youtube Channel](https://www.youtube.com/@willzydollarrzz) and Watch the Video for the [Full Guide]().
